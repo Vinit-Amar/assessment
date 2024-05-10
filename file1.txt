@@ -1,0 +1,23 @@
+#!/bin/bash
+echo enter salary 
+read salary
+tax =1
+if [ $salary -lt 10000 ]
+then
+	echo no tax
+elif [ $salary -ge 10000 ]&[ $salary -lt 25000 ]
+then
+	$tax = $salary * 0.05
+	echo tax tax
+elif [ $salary -ge 25000 ]&[ $salary -lt 60000 ]
+then 
+$tax =$salary *0.10
+echo 10% tax
+elif [ $salary -ge 60000 ]
+then 
+	echo 15% tax
+else
+	echo invalid salary
+fi
+
+	
