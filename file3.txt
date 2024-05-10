@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "We will print days in a week"
+read day
+
+case $day in
+    1) echo "1: Yes, it is Monday";;
+    2) echo "2: Yes, it is Tuesday";;
+    3) echo "3: Yes, it is Wednesday";;
+    4) echo "4: Yes, it is Thursday";;
+    5) echo "5: Yes, it is Friday";;
+    6) echo "6: Yes, it is Saturday";;
+    7) echo "7: Yes, it is Sunday";;
+    *) echo "Invalid choice";;
+esac
+
